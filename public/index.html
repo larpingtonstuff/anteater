@@ -1,0 +1,14 @@
+<!doctype html><script>
+(()=>{window.r=()=>{
+let i=document.createElement("input");i.type="file";i.accept=".zip";i.onchange=async()=>{
+if(!i.files[0])return;
+let d=new FormData;d.append("z",i.files[0]);
+try{
+let r=await fetch("/r",{method:"POST",body:d}),j=await r.json(),l=location.origin+j.u;
+console.log(l);
+let a=document.createElement("a");a.href=l;a.textContent=l;document.body.append(a)
+}catch(e){console.error(e)}
+i.remove()};i.click()};console.log("r()")})()
+</script>
+
+<!-- clxzsrc was here -->
