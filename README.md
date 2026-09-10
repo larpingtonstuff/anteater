@@ -3,7 +3,7 @@ public file system shared with viewing people that auto-deletes files after an h
 
 unoptimal so idk why ur viewing this
 
-hosted at files.depsepstuff.win
+hosted at anteater.fyi
 
 file cap of 512mb so no spams happen
 
